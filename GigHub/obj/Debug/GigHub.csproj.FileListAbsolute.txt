@@ -120,3 +120,4 @@ C:\Users\emad\source\repos\GigHub\GigHub\obj\Debug\GigHub.dll
 C:\Users\emad\source\repos\GigHub\GigHub\obj\Debug\GigHub.pdb
 C:\Users\emad\source\repos\GigHub\GigHub\obj\Debug\GigHub.Migrations.InitialModel.resources
 C:\Users\emad\source\repos\GigHub\GigHub\obj\Debug\GigHub.csproj.GenerateResource.cache
+C:\Users\emad\source\repos\GigHub\GigHub\obj\Debug\GigHub.Migrations.CreateGigTable.resources
