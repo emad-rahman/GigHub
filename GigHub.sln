@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.27428.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GigHub", "GigHub\GigHub.csproj", "{1648687C-5C45-435A-B2B1-117A98FE256A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GigHub.Tests", "GigHub.Tests\GigHub.Tests.csproj", "{4DFA211B-4DAB-4579-ABE2-EB77B7E9952E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{1648687C-5C45-435A-B2B1-117A98FE256A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1648687C-5C45-435A-B2B1-117A98FE256A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1648687C-5C45-435A-B2B1-117A98FE256A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4DFA211B-4DAB-4579-ABE2-EB77B7E9952E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4DFA211B-4DAB-4579-ABE2-EB77B7E9952E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4DFA211B-4DAB-4579-ABE2-EB77B7E9952E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4DFA211B-4DAB-4579-ABE2-EB77B7E9952E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
