@@ -124,3 +124,4 @@ C:\Users\emad\source\repos\GigHub\GigHub\obj\Debug\GigHub.Migrations.CreateGigTa
 C:\Users\emad\source\repos\GigHub\GigHub\obj\Debug\GigHub.Migrations.OverrideConventionsForGigAndGenre.resources
 C:\Users\emad\source\repos\GigHub\GigHub\obj\Debug\GigHub.Migrations.PopulateGenresTable.resources
 C:\Users\emad\source\repos\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddForeignKeyPropertiesToGig.resources
+C:\Users\emad\source\repos\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddNameToApplicationUser.resources
