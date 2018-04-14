@@ -48,7 +48,7 @@ namespace GigHub.Controllers
             _db.Gigs.Add(gig);
             _db.SaveChanges();
 
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Mine", "Gigs");
         }
 
         [Authorize]
@@ -71,6 +71,19 @@ namespace GigHub.Controllers
             };
 
             return View("Gigs", viewModel);
+        }
+
+        [Authorize]
+        public ActionResult Mine()
+        {
+            var userId = User.Identity.GetUserId();
+            var gigs = _db.Gigs
+                .Where(g => g.ArtistId == userId)
+                .Where(g => g.DateTime > DateTime.Now)
+                .Include(g => g.Genre)
+                .ToList();
+
+            return View(gigs);
         }
     }
 }

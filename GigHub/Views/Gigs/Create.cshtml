@@ -11,22 +11,22 @@
     @Html.AntiForgeryToken()
     <div class="form-group">
         @Html.LabelFor(model => model.Venue)
-        @Html.TextBoxFor(model => model.Venue, htmlAttributes: new { @class = "form-control", autofocus = "autofocus" })
+        @Html.TextBoxFor(model => model.Venue, new {@class = "form-control", autofocus = "autofocus"})
         @Html.ValidationMessageFor(model => model.Venue)
     </div>
     <div class="form-group">
         @Html.LabelFor(model => model.Date)
-        @Html.TextBoxFor(model => model.Date, htmlAttributes: new { @class = "form-control", placeholder = "yyyy-MM-dd" })
+        @Html.TextBoxFor(model => model.Date, new {@class = "form-control", placeholder = "dd-MMM-yyyy"})
         @Html.ValidationMessageFor(model => model.Date)
     </div>
     <div class="form-group">
         @Html.LabelFor(model => model.Time)
-        @Html.TextBoxFor(model => model.Time, htmlAttributes: new { @class = "form-control", placeholder = "HH:MM" })
+        @Html.TextBoxFor(model => model.Time, new {@class = "form-control", placeholder = "HH:mm"})
         @Html.ValidationMessageFor(model => model.Time)
     </div>
     <div class="form-group">
         @Html.LabelFor(model => model.Genre)
-        @Html.DropDownListFor(model => model.Genre, new SelectList(Model.Genres, "Id", "Name"), "", new { @class = "form-control" })
+        @Html.DropDownListFor(model => model.Genre, new SelectList(Model.Genres, "Id", "Name"), "", new {@class = "form-control"})
         @Html.ValidationMessageFor(model => model.Genre)
     </div>
 
@@ -34,5 +34,5 @@
 }
 
 @section scripts{
-    @Scripts.Render("~/bundles/jqueryval")    
+    @Scripts.Render("~/bundles/jqueryval")
 }
