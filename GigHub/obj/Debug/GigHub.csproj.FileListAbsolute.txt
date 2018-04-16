@@ -134,3 +134,5 @@ C:\Users\emad\source\repos\GigHub\GigHub\bin\System.Web.Http.xml
 C:\Users\emad\source\repos\GigHub\GigHub\bin\System.Web.Http.WebHost.xml
 C:\Users\emad\source\repos\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddFollowing.resources
 C:\Users\emad\source\repos\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddIsCanceledToGig.resources
+C:\Users\emad\source\repos\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddNotification.resources
+C:\Users\emad\source\repos\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddNotificationFix.resources
